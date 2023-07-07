@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* body {
+    background-color: #f8f8f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+body {
+    height: 100vh;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 62, 5%;
+}
+
+.card {
+    width: 50vw;
+    max-height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #212529;
+    color: #f8f9fa;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: ; */
+}
+
+.card-header p {
+    margin-bottom: 0px;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border-color: #000;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 2%;
+    padding: 1px;
+}
+
+.social-icons i {
+    font-size: 2.5rem;
+    margin: 7%;
+    color: #212529;
+    cursor: pointer;
+}
+
+
+@media(max-width: 959px) {
+    .card {
+        /* background-color: yellowgreen; */
+        min-width: 70vw;
+        margin: 50%;
+        margin: 0px
+    }
+}

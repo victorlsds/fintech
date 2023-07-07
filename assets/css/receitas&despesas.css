@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+span {
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding: 10px;
+    background-image: url('../img/43a2fff4-d17d-721f-dabf-7236f1095e0c.gif');
+    background-position: center;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    background-color: #222;
+    border-radius: 7px;
+    padding: 0px 7px;
+    font-size: 24px;
+}
+.navbar-dark .navbar-toggler {
+    color: #212529;
+    background-color: #212529;
+    border-color: #000;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    margin: 2px 6px;
+    padding: 4px 18px;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* margin: 0px; */
+    max-height: 1rem;
+}
+.card-text {
+    min-height: 20vh;
+}
+
